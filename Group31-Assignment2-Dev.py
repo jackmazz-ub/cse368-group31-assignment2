@@ -89,7 +89,7 @@ plt.plot(np.convolve(rewards, np.ones(50)/50, mode='valid'))
 plt.title("Q-Learning on Taxi")
 plt.xlabel("Episodes")
 plt.ylabel("Average Reward (50-episode rolling)")
-plt.savefig("images/learning-curve-plot.pdf", format="pdf") 
+plt.savefig("plots/learning-curve-plot.pdf", format="pdf") 
 
 # Reset the environment
 state, info = env.reset()

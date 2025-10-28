@@ -1,5 +1,3 @@
-images/**
-!images/.gitkeep
-
-*venv/
+plots/*.pdf
+.venv/
 
